@@ -12,11 +12,32 @@
 				</TCEforms>
 				<type>array</type>
 				<el>
+					<showFacebookIcon>
+						<TCEforms>
+							<label>LLL:EXT:theme_t3kit/Resources/Private/Language/ContentElements.xlf:socialIcons.flexform.showFacebookIcon</label>
+							<onChange>reload</onChange>
+							<config>
+								<type>select</type>
+								<items type="array">
+									<numIndex index="0">
+										<numIndex index="0">LLL:EXT:theme_t3kit/Resources/Private/Language/ContentElements.xlf:socialIcons.flexform.hide</numIndex>
+										<numIndex index="1">0</numIndex>
+									</numIndex>
+									<numIndex index="1">
+										<numIndex index="0">LLL:EXT:theme_t3kit/Resources/Private/Language/ContentElements.xlf:socialIcons.flexform.show</numIndex>
+										<numIndex index="1">1</numIndex>
+									</numIndex>
+								</items>
+								<size>1</size>
+							</config>
+						</TCEforms>
+					</showFacebookIcon>
 					<facebookLink>
 						<TCEforms>
 							<label>
 								LLL:EXT:theme_t3kit/Resources/Private/Language/ContentElements.xlf:socialIcons.flexform.facebookLink
 							</label>
+							<displayCond>FIELD:showFacebookIcon:=:1</displayCond>
 							<config>
 								<type>input</type>
 							</config>

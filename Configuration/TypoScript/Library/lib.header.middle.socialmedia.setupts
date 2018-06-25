@@ -1,6 +1,6 @@
 lib.header.middle.socialmedia =< lib.contentElement
 lib.header.middle.socialmedia {
-    templateName = SocialIcons
+    templateName = SocialIconsHeader
     settings {
         ## To override links in middle header social media element
         # facebookLink =

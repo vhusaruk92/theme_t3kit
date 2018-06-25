@@ -368,6 +368,15 @@
 			<trans-unit id="socialIcons.description">
 				<source>Social Icons element</source>
 			</trans-unit>
+			<trans-unit id="socialIcons.flexform.hide">
+				<source>Hide</source>
+			</trans-unit>
+			<trans-unit id="socialIcons.flexform.show">
+				<source>Show</source>
+			</trans-unit>
+			<trans-unit id="socialIcons.flexform.showFacebookIcon">
+				<source>Facebook Icon</source>
+			</trans-unit>
 			<trans-unit id="socialIcons.flexform.facebookLink">
 				<source>Facebook: Pagelink</source>
 			</trans-unit>

@@ -5,7 +5,7 @@
 		<!-- theme_t3kit: Partials/Footer/Socialmedia.html [begin] -->
 		<div class="social-icons">
 			<f:comment><!-- facebookLink --></f:comment>
-			<f:if condition="{settings.showFacebookIcon}">
+			<f:if condition="{theme:constant(constant:'themes.configuration.socialmedia.useFacebook')}">
 				<f:if condition="{settings.facebookLink}">
 					<f:then>
 						<f:variable name="facebookLink">{settings.facebookLink}</f:variable>
